@@ -1,0 +1,83 @@
+body{
+    background: rgb(35,31,106);
+    background: linear-gradient(90deg, rgba(35,31,106,1) 0%, rgba(0,212,255,1) 60%);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgba(240, 248, 255, 0.438);
+    width: 60%;
+    height: 600px;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+
+.container h2{
+    margin-left: 10px;
+}
+
+.container .screen{
+    height: 50px;
+    background-color: blanchedalmond;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 30px;
+    text-align: right;
+}
+
+.container .screen p{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.calc-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px ;
+    margin-right: 25px;
+}
+
+.button{
+    background-color: chocolate;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .button{
+        background-color: chocolate;
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 40px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .container .screen{
+        height: 50px;
+        background-color: rgba(255, 235, 205, 0.562);
+        width: 90%;
+        margin-left: 20px;
+        border-radius: 30px;
+        text-align: right;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-right: 10px;
+        margin-right: 20px;
+    }
+  }
